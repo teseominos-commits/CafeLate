@@ -1,0 +1,1 @@
+-- Intentionally empty: the contact form has no seed data.
