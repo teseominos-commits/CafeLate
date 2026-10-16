@@ -5,7 +5,7 @@ Memoria del proyecto. Claude la lee al abrir cada sesión y la actualiza solo, s
 Última actualización: 2026-10-16
 
 ## Estado actual
-- Versión: 0.1.0 (en desarrollo, sin publicar)
+- Versión: 0.1.1 (en desarrollo)
 - Estado del proyecto: activo
 - Fase: desarrollo (copia informativa; manda `CLAUDE.md`)
 - Ritmo: autónomo (copia informativa; manda `CLAUDE.md`)
@@ -30,10 +30,13 @@ Memoria del proyecto. Claude la lee al abrir cada sesión y la actualiza solo, s
 - 2026-10-16 La simulación de RLS con tres usuarios se canceló en el entorno; se verificó leyendo el catálogo (RLS activa, solo política INSERT, permisos recortados).
 - 2026-10-16 Se usa la clave pública legacy `anon` (JWT) porque el código la envía también como Bearer.
 
+- 2026-10-16 SecurityCheck del autor (85/100): críticos = cabeceras de seguridad (arregladas en `vercel.json`: CSP, X-Frame-Options, nosniff, Referrer-Policy, Permissions-Policy, HSTS) y SPF del dominio (no aplica: no hay dominio propio ni envío de correo).
+
 ## En curso
-- Nada en curso: v0.1.0 aceptada por el autor.
+- Nada en curso: v0.1.0 aceptada por el autor; v0.1.1 añade cabeceras de seguridad tras el SecurityCheck del autor (pendiente de volver a pasarlo).
 
 ## Pendiente
+- Borrar el mensaje de prueba de `contact_messages` (id 480ea536…, "Pepe"): el borrado por conector se agotó dos veces; el autor lo borra en el panel o se reintenta.
 - Etiqueta `v0.1.0` pendiente (crear desde un equipo local con `gh`).
 - Sustituir textos, carta, dirección y fotos de ejemplo por los reales.
 
