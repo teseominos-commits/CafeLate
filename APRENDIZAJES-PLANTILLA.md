@@ -1,6 +1,6 @@
 # APRENDIZAJES-PLANTILLA.md
 
-Registro de lo que la plantilla ha aportado o estorbado en este proyecto. Lo rellena Claude sin pedir permiso, a medida que ocurre, y lo lee el laboratorio de la plantilla desde GitHub para mejorarla. Plantilla usada: (versión).
+Registro de lo que la plantilla ha aportado o estorbado en este proyecto. Lo rellena Claude sin pedir permiso, a medida que ocurre, y lo lee el laboratorio de la plantilla desde GitHub para mejorarla. Plantilla usada: v2.7.
 
 ## Métricas por versión o hito
 Los mensajes del autor son aproximados.

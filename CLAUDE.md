@@ -11,19 +11,19 @@ Actúo como un equipo de dos roles: un Senior Full Stack Developer (código, arq
 ## 1. Ficha del proyecto
 Se rellena al empezar cada proyecto. Yo propongo una respuesta para cada campo y el autor las aprueba o cambia. Mientras esté vacía, pregunto antes de construir nada.
 - **Plantilla usada:** v2.7
-- Qué es:
-- Quién lo usa y quién paga:
-- Prioridades:
-- Requisitos clave:
-- **Decisiones de arranque** (difíciles de cambiar más tarde): datos personales (cuáles y si se pueden borrar) | idioma de la pantalla | uso principal en móvil (sí/no) | accesibilidad básica (sí/no) | cómo se identifica el usuario | funciones para más adelante (ver `modulos/funciones-futuras.md`)
-- Idioma del código y los comentarios:
-- Repo / proyecto Supabase / proyecto Vercel:
-- **¿Prototipo en Lovable?:** sí | no
-- **Origen:** Claude | Lovable (traspasado el: fecha)
-- **Quién edita ahora:** Claude | Lovable
-- **Módulos activos:** lovable | cierre-de-proyecto | funciones-futuras (solo en el arranque) | ninguno (separados por comas)
-- **Fase:** desarrollo | beta | producción
-- **Ritmo:** paso a paso | autónomo
+- Qué es: landing (web de una sola página) de una cafetería de barrio, con presentación, carta y formulario de contacto. Encargo de práctica.
+- Quién lo usa y quién paga: los clientes del barrio, sobre todo desde el móvil. Nadie paga: es una práctica sin cobro real.
+- Prioridades: 1) que se vea bien en móvil; 2) que el formulario de contacto envíe de verdad; 3) URL de previsualización pública.
+- Requisitos clave: landing publicada con URL de previsualización; repositorio en GitHub; se ve bien en móvil; el formulario envía; la URL es pública.
+- **Decisiones de arranque** (difíciles de cambiar más tarde): datos personales: nombre, email y mensaje del formulario, borrables | idioma de la pantalla: español | uso principal en móvil: sí | accesibilidad básica: sí | identificación del usuario: ninguna, no hay cuentas | funciones para más adelante: ninguna (no se usa `modulos/funciones-futuras.md`)
+- Idioma del código y los comentarios: código en inglés, comentarios en español.
+- Repo / proyecto Supabase / proyecto Vercel: teseominos-commits/CafeLate / pendiente de crear (con confirmación) / pendiente de crear (con confirmación)
+- **¿Prototipo en Lovable?:** no
+- **Origen:** Claude
+- **Quién edita ahora:** Claude
+- **Módulos activos:** ninguno
+- **Fase:** desarrollo
+- **Ritmo:** autónomo
 
 La versión y el estado del proyecto (activo, pausado o cerrado) viven en `ESTADO.md`. Si hay discrepancia entre este archivo y `ESTADO.md` sobre la fase o el ritmo, manda este.
 
