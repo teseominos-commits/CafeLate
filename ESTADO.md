@@ -15,6 +15,7 @@ Memoria del proyecto. Claude la lee al abrir cada sesión y la actualiza solo, s
 - Ficha del proyecto rellenada en `CLAUDE.md`.
 - Repo limpiado: borrados los módulos y el changelog de la plantilla, README propio.
 - Plan aprobado por el autor (2026-10-16).
+- Fusión a `main` hecha el 2026-10-16; CI verde; despliegue de producción sale de `main`.
 - Landing React + Vite + TS: portada, quiénes somos, carta, horario, formulario con validación y anti-spam. 5 pruebas automáticas.
 - Migraciones `contact_messages` (RLS solo-insertar) y permisos recortados a insertar, aplicadas en Supabase y guardadas en el repo. Avisos de seguridad de Supabase: ninguno.
 - Proyecto de Supabase `cafelate` (eu-west-3, coste 0) y de Vercel `cafelate` (framework vite, enlazado al repo, protección de URLs de prueba desactivada, variables públicas puestas).
@@ -30,13 +31,14 @@ Memoria del proyecto. Claude la lee al abrir cada sesión y la actualiza solo, s
 - 2026-10-16 Se usa la clave pública legacy `anon` (JWT) porque el código la envía también como Bearer.
 
 ## En curso
-- Primer despliegue de previsualización y prueba real del formulario.
+- Prueba del autor en el móvil (formulario real).
 
 ## Pendiente
-- Aplicar migración y comprobar RLS; variables públicas en Vercel; primer despliegue; probar el formulario real; merge a `main`.
+- Etiqueta `v0.1.0` pendiente (crear desde un equipo local con `gh`).
+- Sustituir textos, carta, dirección y fotos de ejemplo por los reales.
 
 ## Dudas abiertas
 - Nombre, textos, carta y fotos reales de la cafetería: ¿los aporta el autor o invento unos de ejemplo?
 
 ## Próxima acción
-- Comprobar el despliegue y el CI, dar la URL al autor y fusionar a `main`.
+- Recoger el resultado de la prueba del autor y ajustar lo que pida.
