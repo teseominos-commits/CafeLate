@@ -31,7 +31,7 @@ Memoria del proyecto. Claude la lee al abrir cada sesión y la actualiza solo, s
 - 2026-10-16 Se usa la clave pública legacy `anon` (JWT) porque el código la envía también como Bearer.
 
 ## En curso
-- Prueba del autor en el móvil (formulario real).
+- Nada en curso: v0.1.0 aceptada por el autor.
 
 ## Pendiente
 - Etiqueta `v0.1.0` pendiente (crear desde un equipo local con `gh`).
@@ -41,4 +41,4 @@ Memoria del proyecto. Claude la lee al abrir cada sesión y la actualiza solo, s
 - Nombre, textos, carta y fotos reales de la cafetería: ¿los aporta el autor o invento unos de ejemplo?
 
 ## Próxima acción
-- Recoger el resultado de la prueba del autor y ajustar lo que pida.
+- Esperar los datos reales del autor (nombre, carta, horario, dirección, fotos) o nuevos ajustes. Ofrecer borrar el mensaje de prueba de `contact_messages`.
