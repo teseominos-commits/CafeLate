@@ -15,6 +15,7 @@ Memoria del proyecto. Claude la lee al abrir cada sesión y la actualiza solo, s
 - Ficha del proyecto rellenada en `CLAUDE.md`.
 - Repo limpiado: borrados los módulos y el changelog de la plantilla, README propio.
 - Plan aprobado por el autor (2026-10-16).
+- README de entrega escrito (arranque, estructura, qué es real/simulado, datos de ejemplo y decisiones).
 - Fusión a `main` hecha el 2026-10-16; CI verde; despliegue de producción sale de `main`.
 - Landing React + Vite + TS: portada, quiénes somos, carta, horario, formulario con validación y anti-spam. 5 pruebas automáticas.
 - Migraciones `contact_messages` (RLS solo-insertar) y permisos recortados a insertar, aplicadas en Supabase y guardadas en el repo. Avisos de seguridad de Supabase: ninguno.
