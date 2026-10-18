@@ -1,0 +1,26 @@
+# Crea la etiqueta de versión (v<version de package.json>) al fusionar en main.
+# Prueba del laboratorio de la plantilla (9.4): comprobar que GITHUB_TOKEN basta para etiquetar desde la nube.
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Crear etiqueta si no existe
+        run: |
+          version="v$(node -p "require('./package.json').version")"
+          if git ls-remote --exit-code --tags origin "refs/tags/${version}" >/dev/null 2>&1; then
+            echo "La etiqueta ${version} ya existe; no se hace nada."
+          else
+            git tag "${version}" "${GITHUB_SHA}"
+            git push origin "refs/tags/${version}"
+            echo "Etiqueta ${version} creada en ${GITHUB_SHA}."
+          fi
